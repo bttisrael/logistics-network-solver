@@ -10,9 +10,9 @@ This project provides a mathematical solution to one of the most common challeng
 
 ## Key Features
 
- **Dual-Engine Optimization:** Compare results between a **Greedy Heuristic** and a **Mixed-Integer Linear Programming (MILP)** model powered by **Gurobi**./>
- **ETA-Based Scheduling:** Unlike static models, this solver considers **Transit Time** (Lead Time) to ensure trucks are only dispatched when capacity is available at the destination./>
- **Soft Constraints:** Implemented slack variables to handle extreme volume surges, preventing model infeasibility while signaling the need for operational overtime./>
+ **Dual-Engine Optimization:** Compare results between a **Greedy Heuristic** and a **Mixed-Integer Linear Programming (MILP)** model powered by **Gurobi**.
+ **ETA-Based Scheduling:** Unlike static models, this solver considers **Transit Time** (Lead Time) to ensure trucks are only dispatched when capacity is available at the destination.
+ **Soft Constraints:** Implemented slack variables to handle extreme volume surges, preventing model infeasibility while signaling the need for operational overtime.
  **Cloud Pipeline:** Automated data flow from Python to **Google BigQuery** for real-time dashboarding.
 
 ## Stack
