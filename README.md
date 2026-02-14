@@ -4,7 +4,11 @@
 
 <img width="1864" height="505" alt="image" src="https://github.com/user-attachments/assets/890f6378-989a-41c0-80df-b2e2a696ef30" />
 
-
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Gurobi](https://img.shields.io/badge/Gurobi-Optimization-red.svg)](https://www.gurobi.com/)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
+[![BigQuery](https://img.shields.io/badge/BigQuery-SQL-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/bigquery)
+[![Pandas](https://img.shields.io/badge/Pandas-Operations-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 
 This project provides a mathematical solution to one of the most common challenges in logistics: balancing distribution center (DC) capacity with variable shipment arrival dates to eliminate detention costs.
 
@@ -14,13 +18,6 @@ This project provides a mathematical solution to one of the most common challeng
  * **ETA-Based Scheduling:** Unlike static models, this solver considers **Transit Time** (Lead Time) to ensure trucks are only dispatched when capacity is available at the destination.
  * **Soft Constraints:** Implemented slack variables to handle extreme volume surges, preventing model infeasibility while signaling the need for operational overtime.
  * **Cloud Pipeline:** Automated data flow from Python to **Google BigQuery** for real-time dashboarding.
-
-## Stack
-
- * **Optimization:** Gurobi (State-of-the-art MILP solver)
- * **Language:** Python (Pandas, Numpy)
- * **Cloud/BI:** BigQuery (GCP), Looker Studio
- * **Mathematical Modeling:** Constraint Satisfaction and Linear Programming
 
 ## Impact & Results
 
