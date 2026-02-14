@@ -69,7 +69,3 @@ Stress tests and business diagnostics performed on the pipeline yielded the foll
 [1] Gurobi Optimization, LLC. (2023). Gurobi Optimizer Reference Manual.
 
 [2] Chopra, S., & Meindl, P. (2016). Supply Chain Management: Strategy, Planning, and Operation.
-
-[2] Gurobi Optimization, LLC. (2023). Gurobi Optimizer Reference Manual.
-
-[3] Chopra, S., & Meindl, P. (2016). Supply Chain Management: Strategy, Planning, and Operation.
